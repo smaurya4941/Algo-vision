@@ -25,7 +25,7 @@ const Merge = () => {
         <VisualizationLayout
           array={array}
           activeIndexes={activeIndexes}
-          ranges={ranges}     // <-- REQUIRED FOR RECURSION VISUALIZATION
+          ranges={ranges}     // <-- REQUIRED FOR RECURSION VISUALIZATION aur binary search ke liye
           pseudocode={<MergeSortPseudoCode />}
         />
       )}

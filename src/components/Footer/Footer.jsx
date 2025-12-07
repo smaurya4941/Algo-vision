@@ -17,7 +17,7 @@ const Footer = () => {
               <span>
                 <img src={logo3} alt="logo" height={30} width={30} />
               </span> 
-              AlgoAnimator
+              AlgoVision
             </h2>
             <p className="mt-2 text-gray-400 text-sm leading-relaxed">
               A platform to visualize algorithms with intuitive animations and learning-friendly explanations.
@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} AlgoAnimator — Built by Sachin Maurya ❤️  
+          © {new Date().getFullYear()} AlgoVision — Built by Sachin Maurya ❤️  
         </div>
       </div>
     </footer>

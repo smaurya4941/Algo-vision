@@ -12,11 +12,11 @@ const Quick = () => {
       renderHeader={() => (
         <AlgorithmInfo
           title="Qucik Sort"
-          description="Merge Sort divides the array into halves, recursively sorts each half, and merges them together. It follows the divide-and-conquer approach and guarantees O(n log n) time complexity in all cases."
+          description="Quick Sort selects a pivot, partitions the array into smaller and larger values, and recursively sorts the partitions. Its efficient partitioning makes it one of the fastest general-purpose sorting algorithms."
           time="O(n log n)"
           space="O(n)"
           category="Sorting"
-          difficulty="Hard"
+          difficulty="Medium"
         />
       )}
 

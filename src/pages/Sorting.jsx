@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from "../components/Cards/Card";
+import React from 'react';
 import AlgoSection from "../components/Cards/AlgoSection";
+import Card from "../components/Cards/Card";
 
 const Sorting = () => {
   return (
@@ -23,13 +23,50 @@ const Sorting = () => {
 
           {/* sorting k liye hai  */}
           <div >
-            <AlgoSection title="" viewAllLink="/sorting">
-              <Card topic="sorting" difficulty="easy" algoName="Bubble Sort" description="this is bubble sort"  link="/sorting/bubble-sort"/>
-              <Card topic="sorting" difficulty="easy" algoName="Selection Sort"  description="this is selection sort" link="/sorting/selection-sort" />
-              <Card topic="sorting" difficulty="medium" algoName="Insertion Sort"  description="this is insertion sort" link="/sorting/insertion-sort" />
-              <Card topic="sorting" difficulty="medium" algoName="Merge Sort"  description="this is Merge sort" link="/sorting/merge-sort" />
-              <Card topic="sorting" difficulty="medium" algoName="Quick Sort"  description="this is inserMQUickergetion sort" link="/sorting/quick-sort" />
+            <AlgoSection title="Sorting Algorithms" viewAllLink="/sorting">
+
+              <Card
+                topic="sorting"
+                difficulty="easy"
+                algoName="Bubble Sort"
+                description="Repeatedly compares adjacent elements and swaps them until the array becomes sorted."
+                link="/sorting/bubble-sort"
+              />
+
+              <Card
+                topic="sorting"
+                difficulty="easy"
+                algoName="Selection Sort"
+                description="Finds the smallest element in each pass and places it at the correct position."
+                link="/sorting/selection-sort"
+              />
+
+              <Card
+                topic="sorting"
+                difficulty="medium"
+                algoName="Insertion Sort"
+                description="Builds the sorted list by inserting each element into its correct position."
+                link="/sorting/insertion-sort"
+              />
+
+              <Card
+                topic="sorting"
+                difficulty="medium"
+                algoName="Merge Sort"
+                description="A divide-and-conquer algorithm that recursively splits the array and merges sorted halves."
+                link="/sorting/merge-sort"
+              />
+
+              <Card
+                topic="sorting"
+                difficulty="medium"
+                algoName="Quick Sort"
+                description="A fast, divide-and-conquer algorithm that partitions the array around a pivot."
+                link="/sorting/quick-sort"
+              />
+
             </AlgoSection>
+
           </div>
 
 

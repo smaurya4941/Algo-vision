@@ -6,22 +6,24 @@ const About = () => {
       <div className="max-w-5xl mx-auto">
 
         {/* Heading */}
-        <h1 className="text-4xl font-bold text-white mb-4">About AlgoAnimator</h1>
+        <h1 className="text-4xl font-bold text-white mb-4">About AlgoVision</h1>
         <p className="text-gray-400 text-lg leading-relaxed mb-10">
-          AlgoAnimator is an interactive algorithm visualization platform designed to help 
-          students, developers, and tech enthusiasts understand complex algorithms through 
-          intuitive step-by-step animations. Whether you're preparing for coding interviews or 
-          building strong problem-solving skills, AlgoAnimator makes learning algorithms easy and enjoyable.
+          AlgoVision is an interactive algorithm visualization platform designed to help 
+          students, developers, and tech enthusiasts understand complex Data Structures 
+          and Algorithms through clear, step-by-step visual animations. 
+          With AlgoVision, learning algorithms becomes intuitive, engaging, and far easier 
+          than traditional textbook-based approaches.
         </p>
 
-        {/* Vision Section */}
+        {/* Purpose Section */}
         <section className="mb-14">
           <h2 className="text-2xl font-semibold text-white mb-3">Our Purpose</h2>
           <p className="text-gray-400 leading-relaxed">
-            Understanding algorithms can be difficult when learning only from textbooks.  
-            AlgoAnimator bridges this gap by providing a hands-on, visual learning experience.  
-            Each algorithm is presented with animations, explanations, difficulty level, and examples 
-            so learners can fully grasp the logic behind the operations.
+            Understanding how algorithms work internally can be challenging when relying only 
+            on code or theoretical explanations. AlgoVision bridges this gap by providing a 
+            hands-on, visual learning experience. Each algorithm is demonstrated with 
+            animations, pseudocode highlighting, and clear execution flow—helping learners 
+            truly grasp the logic, comparisons, swaps, and decisions made at every step.
           </p>
         </section>
 
@@ -30,11 +32,11 @@ const About = () => {
           <h2 className="text-2xl font-semibold text-white mb-3">Key Features</h2>
 
           <ul className="space-y-3 text-gray-300">
-            <li>✨ Step-by-step algorithm visualizations</li>
-            <li>📊 Covers Sorting, Searching and more categories</li>
-            <li>🎯 Difficulty levels (Easy, Medium, Hard)</li>
+            <li>✨ Interactive, step-by-step visualization of algorithms</li>
+            <li>📊 Supports Sorting & Searching algorithms for stronger DSA fundamentals</li>
+            <li>🎯 Pseudocode highlighting for clear understanding of each executed step</li>
             <li>⚡ Clean, modern UI with category-based organization</li>
-            <li>🧠 Ideal for students, developers, and interview preparation</li>
+            <li>🧠 Designed for students, developers, and interview preparation</li>
           </ul>
         </section>
 
@@ -47,7 +49,7 @@ const About = () => {
             <span className="px-4 py-2 bg-gray-800 rounded-lg text-center">Tailwind CSS</span>
             <span className="px-4 py-2 bg-gray-800 rounded-lg text-center">JavaScript ES6</span>
             <span className="px-4 py-2 bg-gray-800 rounded-lg text-center">React Router</span>
-            <span className="px-4 py-2 bg-gray-800 rounded-lg text-center">Algorithm Logic</span>
+            <span className="px-4 py-2 bg-gray-800 rounded-lg text-center">Algorithm Logic Module</span>
           </div>
         </section>
 

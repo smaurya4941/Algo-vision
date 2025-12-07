@@ -10,14 +10,14 @@ import Sorting from './pages/Sorting'
 // routing
 import { Route, Routes } from "react-router-dom"
 import Bubble from './components/Algorithms/Bubble'
-import Selection from './components/Algorithms/Selection'
 import Insertion from './components/Algorithms/Insertion'
 import Merge from './components/Algorithms/Merge'
 import Quick from './components/Algorithms/Quick'
-import Linear from './components/Algorithms/searching/Linear'
 import Binary from './components/Algorithms/searching/Binary'
-import Graph from './pages/Graph'
+import Linear from './components/Algorithms/searching/Linear'
+import Selection from './components/Algorithms/Selection'
 import NotFound404Page from './others/NotFound404Page'
+import Graph from './pages/Graph'
 
 const App = () => {
   return (

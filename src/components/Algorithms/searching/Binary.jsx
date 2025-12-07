@@ -33,7 +33,7 @@ Current target: ${target !== null ? target : "Loading..."}`}
           time="O(log n)"
           space="O(1)"
           category="Searching"
-          difficulty="Easy"
+          difficulty="Medium"
         />
       )}
 

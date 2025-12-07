@@ -13,8 +13,7 @@ const Insertion = () => {
       renderHeader={() => (
         <AlgorithmInfo
           title="Insertion Sort"
-          description="Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order.
-It is simple but very slow for large lists due to many repeated comparisons."
+          description="Builds the sorted list by inserting each element into its correct position."
           time="O(n²)"
           space="O(1)"
           category="Sorting"

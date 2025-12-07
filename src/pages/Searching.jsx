@@ -1,7 +1,7 @@
-import React from 'react'
-import Card from "../components/Cards/Card";
-import AlgoSection from "../components/Cards/AlgoSection";
+import React from 'react';
 import { Outlet } from 'react-router-dom';
+import AlgoSection from "../components/Cards/AlgoSection";
+import Card from "../components/Cards/Card";
 
 
 const Searching = () => {
@@ -25,18 +25,33 @@ const Searching = () => {
 
           {/* sorting k liye hai  */}
           <div >
-            <AlgoSection title="" viewAllLink="/sorting">
-              <Card topic="searching" difficulty="easy" algoName="Linear Search " description="this is bubble sort" />
-              <Card topic="searching" difficulty="medium" algoName="Selection Sort " description="this is selection sort" />
-              <Card topic="searching" difficulty="hard" algoName="Merge Sort" description="this is merge sort" />
+            <AlgoSection title="Searching Algorithms" viewAllLink="/searching">
+
+              <Card
+                topic="searching"
+                difficulty="easy"
+                algoName="Linear Search"
+                description="Sequentially checks each element in the list until the target value is found."
+                link="/searching/linear-search"
+              />
+
+              <Card
+                topic="searching"
+                difficulty="medium"
+                algoName="Binary Search"
+                description="Efficiently searches a sorted array by repeatedly dividing the search range in half."
+                link="/searching/binary-search"
+              />
+
             </AlgoSection>
+
           </div>
 
 
 
         </div>
       </div>
-      <Outlet/>
+      <Outlet />
     </div>
   )
 }

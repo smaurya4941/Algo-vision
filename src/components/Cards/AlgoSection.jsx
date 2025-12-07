@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AlgoSection = ({ title, viewAllLink, children }) => {
   return (
@@ -8,12 +9,12 @@ const AlgoSection = ({ title, viewAllLink, children }) => {
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-bold text-white">{title}</h2>
 
-        <a
-          href={viewAllLink}
+        <Link
+          to={viewAllLink}
           className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
         >
           View All
-        </a>
+        </Link>
       </div>
 
       {/* Cards Container */}

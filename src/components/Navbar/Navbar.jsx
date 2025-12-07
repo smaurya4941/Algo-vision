@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="flex items-center space-x-2">
                     <span className="text-blue-600 text-2xl"> <img className="" src={logo3} alt="" height={40} width={40} /> </span>
                     <h1 className="text-xl font-semibold text-blue-600">
-                        AlgoAnimator
+                        AlgoVision
                     </h1>
                 </div>
 
